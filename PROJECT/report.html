@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Item</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Report Lost / Found Item</h2>
+
+<form id="itemForm">
+  <input type="text" id="name" placeholder="Item Name" required>
+  
+  <select id="category">
+    <option>Phone</option>
+    <option>ID Card</option>
+    <option>Wallet</option>
+    <option>Book</option>
+  </select>
+
+  <select id="status">
+    <option>Lost</option>
+    <option>Found</option>
+  </select>
+
+  <input type="text" id="location" placeholder="Location" required>
+  <textarea id="description" placeholder="Description"></textarea>
+  <input type="email" id="email" placeholder="Contact Email" required>
+  <input type="file" id="image" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
